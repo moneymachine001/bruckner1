@@ -8778,3 +8778,27 @@ a {
     color: #fff;
 
   }
+
+
+  /*skrollbar settings*/
+  ::-webkit-scrollbar {
+    width: 10px; /* ширина нового скроллбара */
+}  
+::-webkit-scrollbar-track {
+  background: #fff; /* цвет фона у дорожки */
+  box-shadow: 0 0 2px rgba(0, 0, 0, .2) inset; /* тень у дорожки */
+}      ::-webkit-scrollbar-thumb {
+  background: #fff; /* цвет фона у дорожки */
+  border-radius: 8px; /* скругление углов */
+  border: 3px solid #fff; /* толщина, стиль и цвет рамки */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3ff641; /* ползунок меняет цвет при наведении */
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #3ff641 0%, #fff 100%);
+  background-size: contain;
+  border-radius: 5px;
+  border: 1px solid #fff;
+} 
